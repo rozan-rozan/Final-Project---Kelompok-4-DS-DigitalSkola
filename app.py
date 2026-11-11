@@ -39,7 +39,7 @@ with col1:
 
 with col2:
     max_item_price = st.number_input("Harga Item Termahal", min_value=0, max_value=50000, value=1100)
-    total_onshift_partners = st.number_input("Total Mitra Onshift", min_value=0, max_value=500, value=44.0)
+    total_onshift_partners = st.number_input("Total Mitra Onshift", min_value=0, max_value=500, value=44)
     total_busy_partners = st.number_input("Total Mitra Sibuk", min_value=0, max_value=500, value=41.0)
     total_outstanding_orders = st.number_input("Total Outstanding Orders", min_value=0, max_value=500, value=56.0)
 
